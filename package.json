@@ -1,7 +1,6 @@
 {
   "name": "notes-app-web-server",
   "version": "1.0.0",
-  "description": "",
   "main": "./src/server.js",
   "scripts": {
     "start": "node ./src/server.js",
@@ -13,7 +12,7 @@
     "node": "12.x"
   },
   "keywords": [],
-  "author": "",
+  "author": "hasan",
   "license": "ISC",
   "devDependencies": {
     "eslint": "^7.23.0",
@@ -22,8 +21,17 @@
     "nodemon": "^2.0.7"
   },
   "dependencies": {
-    "@hapi/hapi": "^20.1.2",
+    "@hapi/hapi": "^20.3.0",
     "nanoid": "^3.1.22",
     "node.js": "^0.0.1-security"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hsanbsri/Submission_Backend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hsanbsri/Submission_Backend/issues"
+  },
+  "homepage": "https://github.com/hsanbsri/Submission_Backend#readme",
+  "description": ""
 }
